@@ -21,7 +21,7 @@ class baiduYuyin(object):
     APIURI_TOKEN = "https://openapi.baidu.com/oauth/2.0/token"
     APIURI_TTS = "http://tsn.baidu.com/text2audio"
     APIURI_ASR = "http://vop.baidu.com/server_api"
-    DEVICE_ID = "202cb962ac59075b964b07152d234b70"
+    DEVICE_ID = "202cb962ac59075b964b07152d234b70" # you can change it for anyone
 
     def __init__(self,api_key,secret_key):
         self.API_Key = api_key
